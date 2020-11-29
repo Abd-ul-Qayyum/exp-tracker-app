@@ -9,7 +9,7 @@ function TransactionsList() {
         <>
             <h3>History</h3>
             <ul className="list">
-                <li className="null">
+                <li className="nul">
                     Description <span>Amount</span>
                 </li>
                 {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction} />))}
